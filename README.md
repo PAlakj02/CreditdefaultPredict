@@ -1,6 +1,6 @@
 # Credit Card Behaviour Score Prediction Using Classification and Risk-Based Techniques
 
-## 📌 Objective
+##  Objective
 
 This project aims to help **Bank A** identify customers likely to default on their credit card payments in the upcoming month. The model prioritizes reducing false negatives — those undetected defaulters — due to their high financial impact ($10,000–$100,000 each), while also maintaining acceptable precision to avoid mislabeling reliable customers.
 
@@ -33,7 +33,7 @@ This project aims to help **Bank A** identify customers likely to default on the
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 - Distributions and trends in repayment patterns
 - Correlation heatmaps
@@ -47,21 +47,21 @@ This project aims to help **Bank A** identify customers likely to default on the
 - Logistic Regression
 - Decision Tree
 - **XGBoost**
-- **LightGBM** ✅ *(Final Model)*
+- **LightGBM**  *(Final Model)*
 
 ### Key Metric:
 - **F2 Score** (β = 2) to favor recall over precision due to business priorities
 
-### Performance Summary (Post Tuning):
+### Performance Summary (after 5 fold cross-validation) and optimal threshold :
 
 | Model        | F2 Score | Precision | Recall  | AUC-ROC |
 |--------------|----------|-----------|---------|---------|
 | XGBoost      | 0.8065   | 0.8911    | 0.8050  | 0.9336  |
-| LightGBM 🔥 | 0.6039   | 0.2716    | 0.8701  | 0.9302  |
+| LightGBM  | 0.6039   | 0.2716    | 0.8701  | 0.9302  |
 
 ---
 
-## 📦 Final Output
+##  Final Output
 
 - **Model:** `best_model.pkl`
 - **Threshold:** `best_threshold.pkl`
@@ -70,7 +70,7 @@ This project aims to help **Bank A** identify customers likely to default on the
 
 ---
 
-## 💼 Business Impact
+##  Business Impact
 
 - Enhances proactive risk mitigation
 - Enables early warning systems for high-risk accounts
@@ -79,7 +79,7 @@ This project aims to help **Bank A** identify customers likely to default on the
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 - SMOTE is effective for addressing severe class imbalance.
 - Engineered behavioral features outperform raw demographic features.
@@ -88,5 +88,5 @@ This project aims to help **Bank A** identify customers likely to default on the
 
 ---
 
-## 📁 Repository Structure
+
 
