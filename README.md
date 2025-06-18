@@ -47,12 +47,12 @@ This project aims to help **Bank A** identify customers likely to default on the
 - Logistic Regression
 - Decision Tree
 - **XGBoost**
-- **LightGBM**  *(Final Model)*
+- **LightGBM**  *(Final Model) Because of optimal thresholding*
 
 ### Key Metric:
 - **F2 Score** (β = 2) to favor recall over precision due to business priorities
 
-### Performance Summary (after 5 fold cross-validation) and optimal threshold :
+### Performance Summary (after 5 fold cross-validation)  :
 
 | Model        | F2 Score | Precision | Recall  | AUC-ROC |
 |--------------|----------|-----------|---------|---------|
